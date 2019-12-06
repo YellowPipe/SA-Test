@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #141E30;
+	background: linear-gradient(to right, #243B55, #141E30);
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 65px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 20px auto;
+}
+
+.call-to-action {
+	font-weight: normal;
+	color: #ff7600;
+}
+
+.address-text {
+	margin-top: 0;
+	font-size: 18px;
+}
+
+.social-links {
+	display: flex;
+	justify-content: space-between;
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+.social-link {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.social-icon {
+	margin-top: 7px;
+	color: white;
+}
+
+.send-message-div {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+.minor-text {
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.form-inputs {
+	display: flex;
+	justify-content: space-around;
+	margin: 30px auto;
+}
+
+.form-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.form-input {
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 14px 10px;
+}
+
+.small-input-field {
+	display: block;
+	width: 319px;
+}
+
+.form-button {
+	padding: 12px 25px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	background: #47b3a4;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form-button:hover {
+	background: #419c90;
+}
+
+footer {
+	margin: 100px auto 30px auto;
+}
+
+.footer-text {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.footer-arrow {
+	color: white;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+/*--------COLORS--------*/
+
+.text-white {
+	color: white;
+}
+
+.facebook-link {
+	background: #3B5998;
+}
+
+.twitter-link {
+	background: #00aced;
+}
+
+.linked-in-link {
+	background: #2867B2;
+}
+
+.pinterest-link {
+	background: #c8232c;
+}
